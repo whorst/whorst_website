@@ -1,0 +1,75 @@
+/* This is for CSS */
+
+#intro{
+
+    margin-left: 75px;
+    display: inline-block;
+}
+
+a.ten{
+
+    color:black;
+    font-size: 1.2em;
+    padding-left: 30px;
+    font-family: "Georgia";
+
+}
+
+a:hover.ten{
+
+    color:darkblue;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding-left: 30px;
+    font-family: "Georgia";
+}
+
+
+#page-header{
+    margin-top: 40px;
+    margin-left: 75px;
+    display: inline;
+    width: 30%;
+
+
+}
+
+#menu{
+    padding-left: 170px;
+    display:inline-block;
+}
+
+body {
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+
+#info{
+
+    margin-left: 75px;
+    margin-bottom: 75px;
+    padding-top: 500px;
+
+}
+
+
+
+
+#top, #bottom, #left, #right {
+	background: #000000;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 20px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 20px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }

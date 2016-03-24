@@ -1,0 +1,46 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <!--The above two are links which allow you to install css-->
+        <link rel="stylesheet" href="{% static 'css/website.css' %}">
+        <!-- The above code points to the where our css file is -->
+        <title>William Horst</title>
+        <script type = "text/javascript" src = "jss/base.js">  </script>
+    </head>
+    <body>
+        <div id="left"></div>
+        <div id="right"></div>
+        <div id="top"></div>
+        <div id="bottom"></div>
+
+        <div id ="tab">
+
+            <div id="intro">
+            <h1><font face ="Georgia" color ="black" size = "6em">William Horst</font></h1>
+            <font face ="Georgia" size = "3em" color ="gray">Undergraduate Research Assistant at Central Michigan University</font>
+            </div>
+
+            <div id ="menu">
+                <a class = "ten" id ="Home" href="{% url 'home' %}">Home</a>
+                <a class = "ten" id = "Projects" href="{% url 'projects' %}">Projects</a>
+                <a class = "ten" id = "Coursework" href="www.youtube.com">Coursework</a>
+                <a class = "ten" id = "Hobbies" href="www.youtube.com">About</a>
+                <a class = "ten" id = "Contact" href="www.youtube.com">Contact</a>
+            </div>
+
+        </div>
+
+        <div>
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <div id ="info"><font face ="Georgia" color ="gray">
+
+            <p>William Horst / Powered by Django</p>
+        </font></div>
+
+    </body>
+</html>

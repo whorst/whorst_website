@@ -11,7 +11,7 @@ a.ten{
     color:black;
     font-size: 1.2em;
     padding-left: 30px;
-    font-family: "Georgia";
+    font-family: "proxima-nova";
 
 }
 
@@ -21,7 +21,7 @@ a:hover.ten{
     font-size: 1.2em;
     text-decoration: none;
     padding-left: 30px;
-    font-family: "Georgia";
+    font-family: "proxima-nova";
 }
 
 

@@ -3,7 +3,7 @@ from . import views
 
 urlpatterns = [
     url(r'^projects$',views.projects, name = 'projects'),
-    url(r'^coursework$',views.projects, name = 'coursework'),
+    url(r'^coursework$',views.coursework, name = 'coursework'),
     url(r'^home$', views.home, name='home'),
     url(r'^hobbies$', views.hobbies, name='hobbies'),
     url(r'^contact$', views.contact, name='contact'),

@@ -2,26 +2,64 @@
 
 #intro{
 
-    margin-left: 75px;
-    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
 }
 
-a.ten{
+/*#all{
+
+    text-align: center;
+
+}
+*/
+h1{
+
+    text-align: center; !important;
+}
+
+
+#about{
+
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.ele{
 
     color:black;
-    font-size: 1.2em;
-    padding-left: 30px;
-    font-family: "proxima-nova";
+    font-size: 1.4em;
+    font-family: "georgia";
 
 }
+a.ten{
+
+
+    color:black;
+    font-size: 1.4em;
+    padding-left: 30px;
+    font-family: "georgia";
+
+}
+
+a:hover.ele{
+
+     text-align: center;
+    color:darkblue;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-family: "georgia";
+}
+
 
 a:hover.ten{
 
+     text-align: center;
     color:darkblue;
-    font-size: 1.2em;
+    font-size: 1.4em;
     text-decoration: none;
     padding-left: 30px;
-    font-family: "proxima-nova";
+    font-family: "georgia";
 }
 
 
@@ -34,13 +72,23 @@ a:hover.ten{
 
 }
 
+#tab{
+
+
+     width: 50%;
+    margin: 0 auto;
+
+}
+
 #menu{
-    padding-left: 170px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top:20px;
     display:inline-block;
 }
 
 body {
-    padding-left: 300px;
+
     padding-top: 100px;
 }
 
@@ -73,3 +121,8 @@ body {
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
+font{
+
+opacity:0.8;
+
+}

@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="{% static 'css/website.css' %}">
         <!-- The above code points to the where our css file is -->
         <title>William Horst</title>
-        <script type = "text/javascript" src = "jss/base.js">  </script>
     </head>
     <body style="background-color:#FFFFFE">
         <!--<div id="left"></div>
@@ -15,20 +14,23 @@
         <div id="top"></div>
         <div id="bottom"></div>
         -->
-        <div id ="tab">
+        <div id ="tab" style="width:100%;">
 
-            <div id="intro">
-            <h1><font face ="Georgia" color ="black" size = "6em">William Horst</font></h1>
-            <font face ="Georgia" size = "3em" color ="gray">Undergraduate Research Assistant at Central Michigan University</font>
+            <div id="intro" >
+            <h1><font class="hed" face ="Georgia" color ="black" size = "7em">William Horst</font></h1>
+            <h1><font class="hed" face ="Georgia" size = "4em" color ="black">Student, Programmer, and Geek.</font></h1>
             </div>
 
-            <div id ="menu">
-                <a class = "ten" id ="Home" href="{% url 'home' %}">Home</a>
+            <div style="text-align:center; padding-bottom:50px;" id ="menu">
+                <a class = "ele" id ="Home" href="{% url 'home' %}">Home</a>
                 <a class = "ten" id = "Projects" href="{% url 'projects' %}">Projects</a>
                 <a class = "ten" id = "Coursework" href="{% url 'coursework' %}">Coursework</a>
                 <a class = "ten" id = "Hobbies" href="{% url 'hobbies' %}">About</a>
                 <a class = "ten" id = "Contact" href="{% url 'contact' %}">Contact</a>
             </div>
+
+
+
 
         </div>
 

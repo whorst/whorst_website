@@ -1,7 +1,22 @@
-#home img.will_full{
 
+
+#hold_img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#will_full{
+
+    display : block;
+    margin : auto;
     height: 388;
-    margin-left: 250px;
-    margin-top: 150px;
-    /*width: 50%;*/
+
+}
+
+ele{
+
+    color:black;
+    font-size: 1.4em;
+    font-family: "georgia";
+
 }

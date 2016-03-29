@@ -1,29 +1,23 @@
-#field{
+.center{
 
-margin-top:150px;
-margin-left:250px;
+
+    width:40%;
+    margin: auto;
 
 }
-
 
 p{
 
 font-family: Georgia;
-size: 3em;
 
 
 }
 
-input{
 
-margin-top:17px;
-margin-bottom:17px;
+.ln{
 
-}
-
-td{
-
-    padding-right: 15px;
+    width:49.60%;
+    display:inline-block;
 
 }
 

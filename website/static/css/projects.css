@@ -1,6 +1,22 @@
-#radio {
+.bodytext{
 
-    margin-top: 100px;
+color:gray;
+opacity=0.8;
+font-size:25px !important;
+font-family:"Georgia";
+}
 
+
+
+.center1{
+    text-align: center;
+    width: 67%;
+    margin: 0 auto;
+}
+
+center{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
 
 }

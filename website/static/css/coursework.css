@@ -1,6 +1,14 @@
 .bodytext{
 
+color:gray;
 opacity=0.8;
+font-size:20px !important;
+
+}
+
+.ashow{
+
+   font-size:20px;
 
 }
 
@@ -11,9 +19,69 @@ opacity=0.8;
 
 }
 
-#table_hold{
+.table_hold{
 
     width: 100%;
     margin: 0 auto;
 
 }
+
+.targetDiv {
+    display: none
+}
+.first {
+    display: block
+}
+
+.divtoggle1 {
+  position:absolute;
+  text-align:center;
+}
+.divtoggle2 {
+  position:absolute;
+  text-align:center;
+}
+.divtoggle3 {
+  position:absolute;
+  text-align:center;
+}
+.divtoggle4 {
+  position:absolute;
+  text-align:center;
+}
+
+
+.table{
+
+    margin-top:25px;
+    width:500px;
+    margin: 0 auto;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+td{
+border-top: none !important;
+
+}
+
+.title{
+
+align-text:center;
+font-size:32px;
+
+}
+
+#hold_img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#will_full{
+
+    display : block;
+    margin : auto;
+    height: 20%;
+
+}
+

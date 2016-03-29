@@ -5,26 +5,62 @@
 
 <link rel="stylesheet" href="{% static 'css/contact.css' %}">
 
-    <div id="field">
 
-        <form action="demo_form.asp">
-            <table>
-                <tr>
-                    <td><p>First Name</p>
-                    <input type="text" name="First Name" size="35px"><br></td>
-                    <td><p>Last Name</p>
-                    <input type="text" name="Last Name" size="35px"><br></td>
+        <form class="center" style = "align-text:center">
+
+            <div class="ln">
+            <p> First Name </p>
+            <input style="padding:5px; width:100%;" type="text" name="First Name">
+            </div>
+
+            <div class = "ln">
+            <p> Last Name </p>
+            <input style="padding:5px; width:100%;"  type="text" name="Last Name">
+            </div>
+
+
+            <div style="padding-top:20px;">
+            <p> Email </p>
+            <input style="padding:5px; width:100%" type="text" name="Subject">
+            </div>
+
+            <div style="padding-top:20px;">
+            <p> Subject </p>
+            <input style=" width:100%; padding:5px;" type="text" name="Subject">
+            </div>
+
+
+            <div style="padding-top:20px;">
+            <p> Subject </p>
+           <textarea style="width: 100%; height: 30%;"></textarea>
+            </div>
+
+
+           <!-- <tr>
+            <table align = "center">
+               <!-- <tr>
+                    <td class="nese"><p>First Name</p>
+                    <input type="text" name="First Name" size="35px"></td>
+                    <td class="nese"><p>Last Name</p>
+                    <input type="text" name="Last Name" size="35px"></td>
                 </tr>
-            </table>
-                <p>Email Address</p>
-            <input type="text" name="Email Address" size="88px"><br>
-            <p>Subject</p>
-            <input type="text" name="Subject" size="88px"><br>
-            <p>Message</p>
-            <textarea style="width: 650px; height: 150px;"></textarea>
-            <input type="submit" value="Submit">
-        </form>
 
-    </div>
+
+            </table>
+
+            <table style="padding-left:600px;">
+                <tr><p style="text-align:left;">Email Address</p></tr>
+                <tr align="right"><input align="right" type="text" name="Email Address" size="88px"></tr>
+                <tr><p style="text-align:left;">Subject</p></tr>
+                <tr><input type="text" name="Subject" size="88px"></tr>
+                <tr><p style="text-align:left;">Message</p></tr>
+                <tr><textarea style="width: 650px; height: 150px;"></textarea></tr>
+
+            </table>
+            <!--<table align="center">
+
+            </table>
+            -->
+        </form>
 
 {%  endblock  %}

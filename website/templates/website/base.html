@@ -23,7 +23,7 @@
 
             <div style="text-align:center; padding-bottom:50px;" id ="menu">
                 <a class = "ele" id ="Home" href="{% url 'home' %}">Home</a>
-                <a class = "ten" id = "Projects" href="{% url 'projects' %}">Projects</a>
+                <a class = "ten" id = "Projects" href="{% url 'projects' %}">Portfolio</a>
                 <a class = "ten" id = "Coursework" href="{% url 'coursework' %}">Coursework</a>
                 <a class = "ten" id = "Hobbies" href="{% url 'hobbies' %}">About</a>
                 <a class = "ten" id = "Contact" href="{% url 'contact' %}">Contact</a>
@@ -34,10 +34,10 @@
 
         </div>
 
-        <div>
+
             {% block content %}
             {% endblock %}
-        </div>
+
 
         <div id ="info"><font face ="Georgia" color ="gray">
 

@@ -14,9 +14,59 @@ font-family:"Georgia";
     margin: 0 auto;
 }
 
-center{
+
+.center{
     text-align: center;
     width: 100%;
+    margin: 0 auto !important;
+
+}
+
+div text a{
+
+    text-decoration: none !important;
+
+}
+
+.title{
+
+align-text:center;
+font-size:32px;
+
+
+}
+
+.deffont{
+font-family:Georgia;
+color:black;
+
+
+}
+
+.col{
+
+padding-right:20%;
+
+}
+
+table{
+
+    text-align:center;
+    width: 30%;
     margin: 0 auto;
 
 }
+tblrow{
+
+    padding-bottom:4%;
+    text-align:center;
+    width:15%;
+    display: table-cell;
+
+}
+ a{
+
+    text-decoration:none;
+    font-color:black;
+
+ }

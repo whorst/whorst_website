@@ -85,3 +85,24 @@ font-size:32px;
 
 }
 
+
+.bodytext{
+
+color:gray;
+opacity=0.8;
+font-size:25px !important;
+font-family:"Georgia";
+}
+
+center1{
+    text-align: center;
+    width: 67%;
+    margin: 0 auto;
+}
+
+.deffont{
+font-family:Georgia;
+color:black;
+
+
+}

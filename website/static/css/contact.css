@@ -1,5 +1,12 @@
-.center{
+.center1{
+    text-align: center;
+    width: 67%;
+    margin: 0 auto;
+}
 
+
+
+.center{
 
     width:40%;
     margin: auto;
@@ -21,6 +28,14 @@ font-family: Georgia;
 
 }
 
+
+.bodytext{
+
+color:gray;
+opacity=0.8;
+font-size:25px !important;
+font-family:"Georgia";
+}
 
 
 

@@ -70,3 +70,9 @@ tblrow{
     font-color:black;
 
  }
+
+.border {
+
+    width: 18%;
+    border-style: none none ridge none;
+    margin: 0 auto; }

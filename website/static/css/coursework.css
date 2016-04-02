@@ -14,7 +14,7 @@ font-size:20px !important;
 
 .center{
 
-    width: 100%;
+    width: 67%;
     margin: 0 auto;
 
 }
@@ -36,25 +36,32 @@ font-size:20px !important;
 .divtoggle1 {
   position:absolute;
   text-align:center;
+  padding-right:22%;
 }
 .divtoggle2 {
   position:absolute;
   text-align:center;
+  padding-right:22%;
+
 }
 .divtoggle3 {
   position:absolute;
   text-align:center;
+    padding-right:22%;
+
 }
 .divtoggle4 {
   position:absolute;
   text-align:center;
+   padding-right:22%;
+
 }
 
 
 .table{
 
-    margin-top:25px;
-    width:500px;
+    margin-top:2.5%;
+    width:40%;
     margin: 0 auto;
     border-top: none !important;
     border-bottom: none !important;
@@ -105,4 +112,17 @@ font-family:Georgia;
 color:black;
 
 
+}
+
+.border {
+
+    width: 18%;
+    border-style: none none ridge none;
+    margin: 0 auto;
+}
+
+.center1{
+    text-align: center;
+    width: 67%;
+    margin: 0 auto;
 }

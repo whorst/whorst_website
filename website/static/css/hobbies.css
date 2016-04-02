@@ -1,8 +1,52 @@
+.border {
+
+    width: 18%;
+    border-style: none none ridge none;
+    margin: 0 auto;
+}
+
+
 .bodytext{
 
-color:gray !important;
-opacity=0.8 !important;
-font-size: 4.4em !important;
-font-family: "georgia" !important;
+color:gray;
+opacity=0.8;
+font-size:25px !important;
+font-family:"Georgia";
+}
 
+
+.deffont{
+font-family:Georgia;
+color:black;
+
+
+}
+
+
+.title{
+
+text-align:center;
+font-size:32px;
+
+}
+
+.center1{
+    text-align: center;
+    width: 67%;
+    margin: 0 auto;
+}
+
+
+
+img{
+    display: inline-block;
+    width:15%;
+    height:20%;
+    margin-right:1%;
+    margin-top:1%;
+    }
+
+.center2{
+
+    margin-left: 27%;
 }
